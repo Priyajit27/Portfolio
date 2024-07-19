@@ -7,57 +7,57 @@ import { motion, useInView } from "framer-motion";
 const projectsData = [
   {
     id: 1,
-    title: "React Portfolio Website",
-    description: "Project 1 description",
-    image: "/images/projects/1.png",
+    title: "Chatterly application",
+    description: "A chat website to connect and chat with friends in real-time on our site through email. Join various chat groups or start private conversations for a fun and engaging experience.",
+    image: "/images/projects/1.jpg",
     tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl: "https://github.com/priyajit27/Chatterly-application",
+    previewUrl: "https://chatterly-application.netlify.app/",
   },
   {
     id: 2,
-    title: "Potography Portfolio Website",
-    description: "Project 2 description",
-    image: "/images/projects/2.png",
+    title: "AgroBuddy (Solving for India Hackathon - GFG)",
+    description: "A comprehensive agrotech solution providing farmers with essential crop details for informed decision-making and improved productivity.",
+    image: "/images/projects/2.jpg",
     tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl: "https://github.com/Raj217/agro-buddy",
+    previewUrl: "https://agrobuddy.netlify.app/",
   },
   {
     id: 3,
-    title: "E-commerce Application",
-    description: "Project 3 description",
-    image: "/images/projects/3.png",
+    title: "Note-Keeper application",
+    description: "A note-taking website where the user can create, customize and organize their notes on personalized e-notebook account. One can write, edit and manage their thoughts effortlessly.",
+    image: "/images/projects/3.jpg",
     tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl: "https://github.com/priyajit27/Virtual-Notebook",
+    previewUrl: "https://note-keeper-web.netlify.app/",
   },
   {
     id: 4,
-    title: "Food Ordering Application",
-    description: "Project 4 description",
-    image: "/images/projects/4.png",
-    tag: ["All", "Mobile"],
-    gitUrl: "/",
-    previewUrl: "/",
+    title: "Medicart Application",
+    description: "This medical system leverages blockchain technology to address data fragmentation, privacy concerns, and communication inefficiencies. Blockchain ensures secure, tamper-resistant storage and access to comprehensive patient records, thereby enhancing collaboration and safeguarding privacy.",
+    image: "/images/projects/4.jpg",
+    tag: ["All", "Blockchain"],
+    gitUrl: "https://github.com/K2302/Medicart",
+    previewUrl: "https://medicart-git-main-k2302.vercel.app/",
   },
   {
     id: 5,
-    title: "React Firebase Template",
-    description: "Authentication and CRUD operations",
-    image: "/images/projects/5.png",
+    title: "E-Cell Website",
+    description: "The E-Cell NIT Silchar website showcases our initiatives in fostering entrepreneurship and innovation among students.",
+    image: "/images/projects/5.jpg",
     tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl: "https://github.com/priyajit27/e-cell-website-22",
+    previewUrl: "https://ecellnits.org/",
   },
   {
     id: 6,
-    title: "Full-stack Roadmap",
-    description: "Project 5 description",
-    image: "/images/projects/6.png",
-    tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    title: "Fund-Management-System",
+    description: "The Fund-Management System utilizes blockchain technology to ensure secure, transparent, and efficient handling of financial transactions.",
+    image: "/images/projects/6.jpeg",
+    tag: ["All", "Blockchain"],
+    gitUrl: "https://github.com/Darpan-2002/-Fund-Management-System",
+    previewUrl: "https://github.com/Darpan-2002/-Fund-Management-System",
   },
 ];
 
@@ -97,7 +97,7 @@ const Project = () => {
         />
         <ProjectTag
           onClick={handleTagChange}
-          name="Mobile"
+          name="Blockchain"
           isSelected={tag === "Mobile"}
         />
       </div>

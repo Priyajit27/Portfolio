@@ -37,8 +37,7 @@ const Hero = () => {
             />
         </h1>
         <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
-          voluptuous.
+        A Final year Undergraduate persuing B.Tech in Computer Science & Engineering from NIT Silchar. 
         </p>
         <div>
           <Link
@@ -48,7 +47,7 @@ const Hero = () => {
             Hire Me
           </Link>
           <Link
-            href="/"
+            href="https://drive.google.com/file/d/1d4heLfMlKfiG6CRu5CMVWhy7Rj-Sb2ft/view?usp=sharing"
             className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-br  from-blue-500 to-yellow-500 hover:bg-slate-800 text-white mt-3"
           >
             <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
